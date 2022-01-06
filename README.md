@@ -23,3 +23,15 @@ This crate provides the following resolvers:
 - [`NullResolver`](./src/resolver.rs#L40)
   - Always fails
 
+## Example Usage
+
+```rust
+use asset_resolver::*;
+let resolver = ResolverChain::new(vec![
+    Box::new(NullResolver),
+    Box::new(DefaultResolver),
+]);
+
+let path = resolver.resolve("/home/user/assets/test.png").unwrap();
+assert_eq!(path.to_str().unwrap(), "/home/user/assets/test.png");
+```
