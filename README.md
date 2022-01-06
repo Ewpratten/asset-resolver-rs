@@ -1,9 +1,9 @@
 # Asset Resolver
 [![Crates.io](https://img.shields.io/crates/v/asset-resolver)](https://crates.io/crates/asset-resolver) 
 [![Docs.rs](https://docs.rs/asset-resolver/badge.svg)](https://docs.rs/asset-resolver) 
-[![Build](https://github.com/Ewpratten/asset-resolver/actions/workflows/build.yml/badge.svg)](https://github.com/Ewpratten/asset-resolver-rs/actions/workflows/build.yml)
-[![Clippy](https://github.com/Ewpratten/asset-resolver/actions/workflows/clippy.yml/badge.svg)](https://github.com/Ewpratten/asset-resolver-rs/actions/workflows/clippy.yml)
-[![Audit](https://github.com/Ewpratten/asset-resolver/actions/workflows/audit.yml/badge.svg)](https://github.com/Ewpratten/asset-resolver-rs/actions/workflows/audit.yml)
+[![Build](https://github.com/Ewpratten/asset-resolver-rs/actions/workflows/build.yml/badge.svg)](https://github.com/Ewpratten/asset-resolver-rs/actions/workflows/build.yml)
+[![Clippy](https://github.com/Ewpratten/asset-resolver-rs/actions/workflows/clippy.yml/badge.svg)](https://github.com/Ewpratten/asset-resolver-rs/actions/workflows/clippy.yml)
+[![Audit](https://github.com/Ewpratten/asset-resolver-rs/actions/workflows/audit.yml/badge.svg)](https://github.com/Ewpratten/asset-resolver-rs/actions/workflows/audit.yml)
 
 The **Asset Resolver** crate exists to allow programs to create resolvers that can convert arbitrary path strings into filesystem paths.
 
