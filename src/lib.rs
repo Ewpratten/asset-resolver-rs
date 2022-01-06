@@ -64,3 +64,8 @@
     nonstandard_style,
     rust_2018_idioms
 )]
+
+mod resolver;
+pub use resolver::{AssetResolver, DefaultResolver, NullResolver};
+mod chain;
+pub use chain::ResolverChain;
